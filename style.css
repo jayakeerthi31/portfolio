@@ -27,7 +27,15 @@
   text-decoration:none;
 }
 .home{
+  height:90vh;
+}
+.rowabout{
   height:100vh;
+  padding-top:100px;
+}
+.rowskills{
+  height:100vh;
+  padding-bottom:10px;
 }
 .animi{
   height: 500px;
