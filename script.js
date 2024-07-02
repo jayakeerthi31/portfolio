@@ -142,7 +142,7 @@ function handleScroll() {
     function addRevealClass(section) {
         setTimeout(function() {
             section.classList.add('reveal');
-        }, 250); // 5000 milliseconds = 5 seconds
+        }, 700); // 5000 milliseconds = 5 seconds
     }
 
     if (aboutMeSectionTop < windowHeight) {
