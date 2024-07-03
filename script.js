@@ -119,6 +119,7 @@ buttons.forEach(button => {
         // Implement your filtering logic here
     });
 });
+/*
 ScrollReveal().reveal('.card', {
     delay: 200,
     distance: '50px',
@@ -128,6 +129,13 @@ ScrollReveal().reveal('.card', {
     reset: true,
     interval: 200 // Delay between each card animation
 });
+
+*/
+
+
+
+
+
 
 function handleScroll() {
     var aboutMeSection = document.getElementById('AboutMe');
@@ -164,32 +172,6 @@ handleScroll();
 // Event listener for scroll event
 window.addEventListener('scroll', handleScroll);
 
-
-document.addEventListener('DOMContentLoaded', function() {
-    const popup = document.getElementById('popup');
-    const popupImg = document.getElementById('popup-img');
-    const popupCaption = document.getElementById('popup-caption');
-    const popupClose = document.getElementsByClassName('popup-close')[0];
-
-    document.querySelectorAll('.popup-trigger').forEach(function(element) {
-        element.addEventListener('click', function(event) {
-            event.preventDefault();
-            popup.style.display = 'block';
-            popupImg.src = this.href;
-            popupCaption.innerHTML = this.querySelector('.overlay').innerHTML;
-        });
-    });
-
-    popupClose.addEventListener('click', function() {
-        popup.style.display = 'none';
-    });
-
-    window.addEventListener('click', function(event) {
-        if (event.target == popup) {
-            popup.style.display = 'none';
-        }
-    });
-});
 
  
 
