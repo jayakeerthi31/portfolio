@@ -262,6 +262,153 @@ top:200px;
 }
 }
 
+@media only screen and (max-width:375px){
+  body{
+    overflow-x: hidden;
+  }
+    .row .nav{
+      position: sticky;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      height: 300px;
+      background-color: #111111;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width:100%;
+   
+    }
+    .nav .profile{
+      height:200px;
+      width:150px;
+      margin-top:60px;
+      margin-left:30px;
+    }
+    .nav .two{
+   position: relative;
+   bottom:50px;
+     
+  }
+  .animi{
+    position: relative;
+    right:50px;
+    width: 100%;
+    
+  }
+  .animi .text1{
+    font-size: 40px;
+    position:relative;
+    right:30px;
+  }
+  .animi .text2{
+    font-size: 20px;
+  margin-left: -80px;
+  }
+  .rowabout h1{
+    margin-left: 20px;
+    text-align: center;
+  }
+  .rowabout .demo{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .rowabout .demo1{
+    margin-top:45px;
+    margin-left:30px;
+  height:400px;
+  width:300px;
+  }
+  .rowskills{
+  position: relative;
+  top:200px;
+  }
+  .bars .circular-bars{
+    position: relative;
+    margin-top:800px;
+  }
+  .works{
+    position: relative;
+    right:210px;
+    width:100px;
+  }
+  .works .buttons{
+    padding-left:20px;
+    width:100px;
+  }
+  .fil{
+    position:relative;
+    right:50px;
+  }
+  .frm{
+    position:relative;
+    left:60px;
+  }
+  .frm .inp{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:300px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+    margin-left:40px;
+  }
+  .frm .inp1{
+    border:1px solid #686363;
+    margin-top:20px;
+    color: white;
+    width:300px;
+    padding:2%;
+    background-color:black;
+    margin-left:40px;
+  }
+  .frm .inp2{
+    border: 1px solid #686363;
+    margin-top:20px;
+    padding:2%;
+    margin-left: -10%;
+    color: white;
+    width:300px;
+    background-color:black;
+    margin-left:40px;
+  }
+  .frm .inp3{
+    border:1px solid #686363;
+   margin-top:20px;
+    padding:2%;
+    margin-left: -10%;
+    color: white;
+    width:300px;
+    background-color: black;
+    margin-left:40px;
+  }
+  .frm .inp4{
+    border: 1px solid #686363;
+    color: white;
+    background-color:black;
+    margin-top:20px;
+    height:150px;
+    width:92%;
+    margin-left:40px;
+  }
+  .frm .inp5{
+    border: 1px solid #686363; 
+    color: white; 
+    background-color: black;
+    margin-top:25px;
+    position:relative;
+    right:50px;
+    margin-bottom: 50px;
+  }
+  #contact h1{
+    position: relative;
+    left:40px;
+  }
+  }
+  
+  
 
 /*home*/
 
