@@ -173,5 +173,237 @@ handleScroll();
 window.addEventListener('scroll', handleScroll);
 
 
- 
+ /*
 
+@media only screen and (max-width:1024px){
+    .nav{
+      position:sticky;
+      top: 0;
+      left: 0;
+      height:100vh;
+      background-color: #111111;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width:100%;
+    }
+    .nav .profile{
+      height:200px;
+      width:150px;
+      margin-top:40px;
+      margin-left:10px;
+    }
+    .two{
+      padding: 7%;
+      margin-top: 50px;
+  }
+  .animi{
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .rowabout{
+    margin-top: 120px;
+  }
+  .rowabout .demo1{
+    margin-top:45px;
+    height:300px;
+    width:100%;
+    margin-left: -100px;
+    border-radius: 20px;
+    border:1px solid white;
+  }
+  .rowskills{
+    margin-top: -50px;
+    margin-left: 40px;
+  }
+  .rowskills .circular-bars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .bars .circular-bars{
+    margin-top:-250px ;
+    margin-bottom: -10px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .circular-bars .progress-circle {
+    position: relative;
+    background: transparent;
+    border: #1b1b1b 8px solid;
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 2em;
+    justify-content: center;
+  }
+  .fil .works{
+   margin-left: 150px;
+  
+  }
+  .frm .inp{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+   
+  }
+  .frm .inp1{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+  }
+  .frm .inp2{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+  }
+  .frm .inp3{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+  }
+  .frm .inp4{
+    border: 1px solid #686363;
+    color: white;
+    background-color:black;
+    margin-top:20px;
+    height:150px;
+    width:98%;
+  }
+  
+  }
+  @media only screen and (max-width:425px){
+    .nav{
+      position:sticky;
+      top: 0;
+      left: 0;
+      height:100vh;
+      background-color: #111111;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width:100%;
+    }
+    .nav .profile{
+      height:200px;
+      width:150px;
+      margin-top:40px;
+      margin-left:10px;
+    }
+    .two{
+      padding: 7%;
+      margin-top: 50px;
+  }
+  .animi{
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .rowabout .demo1{
+    margin-top:45px;
+    height:300px;
+    width:100%;
+    margin-left: -100px;
+    border-radius: 20px;
+    border:1px solid white;
+  }
+  .rowskills .circular-bars{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .bars .circular-bars{
+    margin-top:-250px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  .circular-bars .progress-circle {
+    position: relative;
+    background: transparent;
+    border: #1b1b1b 8px solid;
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 2em;
+    justify-content: center;
+  }
+  .fil .works{
+   margin-left: 150px;
+  
+  }
+  .frm .inp{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+   
+  }
+  .frm .inp1{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+  }
+  .frm .inp2{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+  }
+  .frm .inp3{
+    border: 1px solid #686363;
+    background-color: black;
+    color: white;
+    width:150px;
+    padding:2%;
+    margin-top:20px;
+    padding-right: 10px;
+  }
+  .frm .inp4{
+    border: 1px solid #686363;
+    color: white;
+    background-color:black;
+    margin-top:20px;
+    height:150px;
+    width:98%;
+  }
+  
+  }
+  @media only screen and (max-width:425px){
+  
+  }
+  */

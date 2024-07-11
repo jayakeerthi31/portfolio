@@ -25,7 +25,7 @@
   margin-left: 100px;
 }
 .rowabout{
-  margin-top: -900px;
+  margin-top: 120px;
 }
 .rowabout .demo1{
   margin-top:45px;
@@ -36,7 +36,7 @@
   border:1px solid white;
 }
 .rowskills{
-  margin-top: -500px;
+  margin-top: -50px;
   margin-left: 40px;
 }
 .rowskills .circular-bars{
@@ -47,7 +47,7 @@
 }
 .bars .circular-bars{
   margin-top:-250px ;
-  margin-top: -1000px;
+  margin-bottom: -10px;
   margin-left: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -66,10 +66,10 @@
   justify-content: center;
 }
 .fil .works{
- margin-left: 150px;
-
-}
-.frm .inp{
+  margin-left: 150px;
+ 
+ }
+ .frm .inp{
   border: 1px solid #686363;
   background-color: black;
   color: white;
@@ -114,107 +114,127 @@
   height:150px;
   width:98%;
 }
-
 }
-@media only screen and (max-width:425px){
-  .nav{
-    position:sticky;
+
+@media only screen and (max-width:4255px){
+
+  .row .nav{
+    position: sticky;
+    z-index: 9999;
     top: 0;
     left: 0;
-    height:100vh;
+    height: 300px;
     background-color: #111111;
     display: flex;
     flex-direction: column;
     text-align: center;
     width:100%;
+ 
   }
   .nav .profile{
     height:200px;
     width:150px;
-    margin-top:40px;
-    margin-left:10px;
+    margin-top:60px;
+    margin-left:30px;
   }
-  .two{
-    padding: 7%;
-    margin-top: 50px;
+  .nav .two{
+ position: relative;
+ bottom:50px;
+   
 }
 .animi{
-  justify-content: center;
-  margin-left: 100px;
+  position: relative;
+  right:50px;
+  width: 100%;
+  
+}
+.animi .text1{
+  font-size: 40px;
+  position:relative;
+  right:30px;
+}
+.animi .text2{
+  font-size: 20px;
+margin-left: -80px;
+}
+.rowabout h1{
+  margin-left: 20px;
+  text-align: center;
+}
+.rowabout .demo{
+  margin-left: 40px;
+  font-size: 20px;
+  margin-right: 20px;
 }
 .rowabout .demo1{
   margin-top:45px;
-  height:300px;
-  width:100%;
-  margin-left: -100px;
-  border-radius: 20px;
-  border:1px solid white;
+  margin-left:30px;
+height:400px;
+width:400px;
 }
-.rowskills .circular-bars{
- 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
- 
+.rowskills{
+position: relative;
+top:200px;
 }
 .bars .circular-bars{
-  margin-top:-250px ;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
- 
-}
-.circular-bars .progress-circle {
   position: relative;
-  background: transparent;
-  border: #1b1b1b 8px solid;
-  width: 8em;
-  height: 8em;
-  border-radius: 100%;
-  overflow: hidden;
-  margin: 2em;
-  justify-content: center;
+  margin-top:400px;
 }
-.fil .works{
- margin-left: 150px;
-
+.works{
+  position: relative;
+  right:210px;
+  width:100px;
+}
+.works .buttons{
+  padding-left:20px;
+  width:100px;
+}
+.fil{
+  position:relative;
+  right:50px;
+}
+.frm{
+  position:relative;
+  left:60px;
 }
 .frm .inp{
   border: 1px solid #686363;
   background-color: black;
   color: white;
-  width:150px;
+  width:300px;
   padding:2%;
   margin-top:20px;
   padding-right: 10px;
- 
+  margin-left:40px;
 }
 .frm .inp1{
-  border: 1px solid #686363;
-  background-color: black;
-  color: white;
-  width:150px;
-  padding:2%;
+  border:1px solid #686363;
   margin-top:20px;
-  padding-right: 10px;
+  color: white;
+  width:300px;
+  padding:2%;
+  background-color:black;
+  margin-left:40px;
 }
 .frm .inp2{
   border: 1px solid #686363;
-  background-color: black;
-  color: white;
-  width:150px;
-  padding:2%;
   margin-top:20px;
-  padding-right: 10px;
+  padding:2%;
+  margin-left: -10%;
+  color: white;
+  width:300px;
+  background-color:black;
+  margin-left:40px;
 }
 .frm .inp3{
-  border: 1px solid #686363;
-  background-color: black;
-  color: white;
-  width:150px;
+  border:1px solid #686363;
+ margin-top:20px;
   padding:2%;
-  margin-top:20px;
-  padding-right: 10px;
+  margin-left: -10%;
+  color: white;
+  width:300px;
+  background-color: black;
+  margin-left:40px;
 }
 .frm .inp4{
   border: 1px solid #686363;
@@ -222,10 +242,25 @@
   background-color:black;
   margin-top:20px;
   height:150px;
-  width:98%;
+  width:92%;
+  margin-left:40px;
+}
+.frm .inp5{
+  border: 1px solid #686363; 
+  color: white; 
+  background-color: black;
+  margin-top:25px;
+  position:relative;
+  right:50px;
+  margin-bottom: 50px;
+}
+#contact h1{
+  position: relative;
+  left:40px;
+}
 }
 
-}
+
 /*home*/
 
 .nav{
