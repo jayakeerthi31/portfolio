@@ -1,135 +1,4 @@
-
-/*@media only screen and (max-width:1024px){
-  .mynav{
-    position:sticky;
-    top: 0;
-    left: 0;
-    height:100vh;
-    background-color: #111111;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width:100%;
-    margin-left:10px;
-  }
-  .mynav .profile{
-    height:200px;
-    width:150px;
-    margin-top:40px;
-    margin-left:10px;
-  }
-  .two{
-    padding: 7%;
-    margin-top: 50px;
-}
-.home{
-  margin-bottom: 100px;
-}
-.animi{
-  justify-content: center;
-  margin-left: 200px;
-}
-.rowabout{
-  margin-top: 120px;
-}
-.rowabout .demo1{
-  margin-top:45px;
-  height:300px;
-  width:100%;
-  margin-left: -100px;
-  border-radius: 20px;
-  border:1px solid white;
-}
-.rowskills{
-  margin-top: -50px;
-  margin-left: 40px;
-}
-.rowskills .circular-bars{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
- 
-}
-.bars .circular-bars{
-  margin-top:-250px ;
-  margin-bottom: -10px;
-  margin-left: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
- 
-}
-.circular-bars .progress-circle {
-  position: relative;
-  background: transparent;
-  border: #1b1b1b 8px solid;
-  width: 8em;
-  height: 8em;
-  border-radius: 100%;
-  overflow: hidden;
-  margin: 2em;
-  justify-content: center;
-}
-.fil .works{
-  margin-left: 150px;
- 
- }
- .frm .inp{
-  border: 1px solid #686363;
-  background-color: black;
-  color: white;
-  width:150px;
-  padding:2%;
-  margin-top:20px;
-  padding-right: 10px;
- 
-}
-.frm .inp1{
-  border: 1px solid #686363;
-  background-color: black;
-  color: white;
-  width:150px;
-  padding:2%;
-  margin-top:20px;
-  padding-right: 10px;
-}
-.frm .inp2{
-  border: 1px solid #686363;
-  background-color: black;
-  color: white;
-  width:150px;
-  padding:2%;
-  margin-top:20px;
-  padding-right: 10px;
-}
-.frm .inp3{
-  border: 1px solid #686363;
-  background-color: black;
-  color: white;
-  width:150px;
-  padding:2%;
-  margin-top:20px;
-  padding-right: 10px;
-}
-.frm .inp4{
-  border: 1px solid #686363;
-  color: white;
-  background-color:black;
-  margin-top:20px;
-  height:150px;
-  width:98%;
-}
-}
-*/
-@media only screen and (max-width:1024px){
-  .mynav{
-    position:sticky;
-  }
- .animi{
-  width: 600px;
- } 
- 
-}
+/*
 @media only screen and (max-width:425px){
 body{
   overflow-x: hidden;
@@ -274,7 +143,7 @@ top:200px;
   position: relative;
   left:40px;
 }
-}
+}*/
 
 @media only screen and (max-width:375px){
   body{
@@ -285,30 +154,47 @@ top:200px;
       z-index: 9999;
       top: 0;
       left: 0;
-      height: 300px;
+      height: 100px;
       background-color: #111111;
       display: flex;
       flex-direction: column;
       text-align: center;
-      width:100%;
+      width:90%;
+      margin-left: 50px;
    
     }
     .mynav .profile{
       height:200px;
-      width:150px;
+      width:200px;
       margin-top:60px;
-      margin-left:30px;
+      margin-left:70px;
     }
     .mynav .two{
    position: relative;
-   bottom:50px;
+   
+   bottom:0px;
      
   }
   .animi{
     position: relative;
-    right:50px;
+    left:80px;
+    top: 450px;
     width: 100%;
     
+  }
+  .card18 .image{
+    position: relative;
+    left: 27px;
+    height: 400px;
+    width:370px;
+  }
+  .image{
+    height: 10px;
+  }
+  .rowabout{
+    position: relative;
+    top: 300px;
+    right: 20px;
   }
   .animi .text1{
     font-size: 40px;
@@ -320,44 +206,69 @@ top:200px;
   margin-left: -80px;
   }
   .rowabout h1{
-    margin-left: 20px;
-    text-align: center;
+   position: relative;
+   left: 50px;
   }
   .rowabout .demo{
-    margin-left: 40px;
-    font-size: 20px;
-    margin-right: 20px;
+    position: relative;
+    left: 50px;
   }
   .rowabout .demo1{
     margin-top:45px;
-    margin-left:30px;
+    margin-left:100px;
   height:400px;
   width:300px;
   }
   .rowskills{
   position: relative;
-  top:200px;
+  top:100px;
+  left: 20px;
   }
-  .bars .circular-bars{
+  .circular-bars{
     position: relative;
-    margin-top:800px;
+    width:10%;
+    left:500px;
+   
+  }
+  .bars{
+    position:relative;
+   
   }
   .works{
     position: relative;
-    right:210px;
-    width:100px;
+    right:350px;
+    width:100%;
+    top: 500px;
   }
   .works .buttons{
-    padding-left:20px;
-    width:100px;
+    width:70px;
+    margin-left: 30px;
+    font-size: 15px;
+  }
+  .port{
+    position: relative;
+    right: 150px;
+    top: 500px;
   }
   .fil{
     position:relative;
-    right:50px;
+    right:10px;
+    top: 500px;
+  }
+  .contact{
+    position: relative;
+    top: 950px;
+   margin-left: 90px;
+  }
+  .CON{
+    position: relative;
+    top: 930px;
+    left: 50px;
   }
   .frm{
     position:relative;
-    left:60px;
+    left:100px;
+    top: 900px;
   }
   .frm .inp{
     border: 1px solid #686363;
@@ -514,17 +425,23 @@ top:200px;
   width:400px;
   margin-left: 70px;
 }
+.self{
+  font-size: 40px;
+  color: white;
+  margin-left: 30%;
+
+}
 .demo{
   margin-top: 20px;
-  margin-left: -100px;
+  margin-left: 15%;
   color: white;
   font-size: 20px;
 }
 .demo1{
-  margin-top:45px;
+  margin-top:35px;
   height:200px;
-  width:100%;
-  margin-left: -100px;
+  width:80%;
+  margin-left: 150px;
   border-radius: 20px;
   border:1px solid white;
 }
@@ -534,6 +451,12 @@ top:200px;
 .containerabout {
   height: 1000px; /* Adjust height according to your content */
   overflow: hidden;
+}
+.image{
+  border-radius: 20px;
+  width:100%;
+  height: 400px;
+  margin-left: -40px;
 }
 .box {
   opacity: 0; /* Initially hide the element */
@@ -775,6 +698,7 @@ padding-left:150px;
   border-radius: 20px;
   margin-bottom: 30px;
   }
+
   .work2{
   margin-left:-50px;
   margin-top: 50px;
